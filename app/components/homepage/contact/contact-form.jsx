@@ -5,6 +5,8 @@ import axios from "axios";
 import { useState } from "react";
 import { TbMailForward } from "react-icons/tb";
 import { toast } from "react-toastify";
+import emailjs from '@emailjs/browser';
+
 
 function ContactForm() {
   const [error, setError] = useState({ email: false, required: false });
@@ -23,6 +25,7 @@ function ContactForm() {
 
   const handleSendMail = async (e) => {
     e.preventDefault();
+    debugger
 
     if (!userInput.email || !userInput.message || !userInput.name) {
       setError({ ...error, required: true });
@@ -33,24 +36,52 @@ function ContactForm() {
       setError({ ...error, required: false });
     };
 
-    try {
-      setIsLoading(true);
-      const res = await axios.post(
-        `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
-        userInput
-      );
+    const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+    const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+    const userID = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
-      toast.success("Message sent successfully!");
-      setUserInput({
-        name: "",
-        email: "",
-        message: "",
-      });
+
+    try {
+      const emailParams = {
+        name: userInput.name,
+        email: userInput.email,
+        message: userInput.message
+      };
+
+      const res = await emailjs.send(serviceID, templateID, emailParams, userID);
+
+      if (res.status === 200) {
+        toast.success("Message sent successfully!");
+        setUserInput({
+          name: "",
+          email: "",
+          message: ""
+        });
+      }
     } catch (error) {
-      toast.error(error?.response?.data?.message);
+      toast.error("Failed to send message. Please try again later.");
     } finally {
       setIsLoading(false);
     };
+
+    // try {
+    //   setIsLoading(true);
+    //   const res = await axios.post(
+    //     `${process.env.NEXT_PUBLIC_APP_URL}/api/contact`,
+    //     userInput
+    //   );
+
+    //   toast.success("Message sent successfully!");
+    //   setUserInput({
+    //     name: "",
+    //     email: "",
+    //     message: "",
+    //   });
+    // } catch (error) {
+    //   toast.error(error?.response?.data?.message);
+    // } finally {
+    //   setIsLoading(false);
+    // };
   };
 
   return (
@@ -114,11 +145,11 @@ function ContactForm() {
             >
               {
                 isLoading ?
-                <span>Sending Message...</span>:
-                <span className="flex items-center gap-1">
-                  Send Message
-                  <TbMailForward size={20} />
-                </span>
+                  <span>Sending Message...</span> :
+                  <span className="flex items-center gap-1">
+                    Send Message
+                    <TbMailForward size={20} />
+                  </span>
               }
             </button>
           </div>
