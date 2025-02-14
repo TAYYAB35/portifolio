@@ -6,7 +6,7 @@ export const projectsData = [
         tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
         role: 'Frontend and UI Developer',
         code: '',
-        demo: '',
+        demo: 'https://balke.tech/',
     },
     {
         id: 2,
