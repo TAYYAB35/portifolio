@@ -9,5 +9,5 @@ export const personalData = {
   github: 'https://github.com/TAYYAB35',
   facebook: 'https://www.facebook.com/mtayyab.baig',
   linkedIn: 'https://www.linkedin.com/in/m-tayyab-baig/',
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1ndABUqMFpgcDgV18Hx2uT7aMsNep0itQ/view"
 }

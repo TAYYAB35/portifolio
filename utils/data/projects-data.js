@@ -3,7 +3,7 @@ export const projectsData = [
         id: 1,
         name: 'BALKE',
         description: "Me and my team built an AI-powered BALKE Digital Marketing Solution.I have intergrate the API and build the UI using tailwindcss and scss in Angular.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
+        tools: ['Angular', 'Tailwindcss', 'SCSS', 'AOS', 'Recaptcha'],
         role: 'Frontend and UI Developer',
         code: '',
         demo: 'https://balke.tech/',
@@ -12,29 +12,93 @@ export const projectsData = [
         id: 2,
         name: 'PROSHOP',
         description: 'I have designed and developed a full-stack web app for ECOMMERCE.I created the UI using React, Javascript,TailwindCSS.The app accept multiple payment and currencies. I developed the API using React,Nodejs,Express, and MongoDB.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        tools: ['React', 'Node', 'Express', 'MongoDB', 'Bootstrap', 'Redux'],
         role: 'Full Stack Developer',
         code: '',
         demo: '',
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'DigiContest',
+        description: 'I have converted the project in relaity using following Techs',
+        tools: ['Angular', 'Bootstrap', 'SCSS', 'ChartJs', 'Google Charts', 'NgZoro'],
         code: '',
-        role: 'Full Stack Developer',
-        demo: '',
+        role: 'UI Developer',
+        demo: 'https://streamable.com/mpgj5i',
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'Luqta Website',
+        description: "Created the portiloio website for digicontesst",
+        tools: ['Angular', 'Bootstrap', 'SCSS', 'NgZoro'],
         code: '',
-        demo: '',
-        role: 'Full Stack Developer',
-    }
+        demo: 'https://streamable.com/jcxt4t',
+        role: 'UI Developer',
+    },
+    {
+        id: 5,
+        name: "ELTAO ECOM",
+        description: "Designed and developed the complete UI for an e-commerce platform, ensuring a seamless and user-friendly experience.",
+        tools: ["Angular", "Bootstrap", "SCSS", "NgZoro"],
+        code: "",
+        demo: "https://streamable.com/tnprof",
+        role: "UI Developer"
+    },
+    {
+        id: 6,
+        name: "TAILWIND ECOM",
+        description: "Developed a fully responsive e-commerce UI using modern design principles, integrating animations and smooth interactions.",
+        tools: ["Angular", "TailwindCSS", "SCSS", "NgZoro", "OwlCarousel", "AOS"],
+        code: "",
+        demo: "https://logoipsum-sigma.vercel.app/",
+        role: "UI Developer"
+    },
+    {
+        id: 7,
+        name: "ALKHALEEJ BANK",
+        description: "Developed the user interface for a banking platform and integrated backend functionalities, enhancing usability and performance.",
+        tools: ["Angular", "TailwindCSS", "SCSS", "NgZoro", "OwlCarousel", "AOS"],
+        code: "",
+        demo: "https://bankapp-henna.vercel.app/",
+        role: "Front-end Developer"
+    },
+    {
+        id: 8,
+        name: "BALKE DASHOBARD",
+        description: "Created the dashboard and administration panel for BALKE platform",
+        tools: ["Angular", "TailwindCSS", "SCSS", "NgZoro", "OwlCarousel", "AOS"],
+        code: "",
+        demo: "https://streamable.com/ceerdk",
+        role: "Front-end Developer"
+    },
+    {
+        id: 9,
+        name: "PLANT",
+        description: "Plants make a positive impact on your environment",
+        tools: ["HTML",'JS',"TailwindCSS", "CSS", "ScrollReveal", "SwiperJS"],
+        code: "",
+        demo: "https://plant-beryl.vercel.app/",
+        role: "Front-end Developer"
+    },
+    {
+        id: 10,
+        name: "SPACE",
+        description: "Created and destroyed the space website using following tools",
+        tools: ["HTML",'JS',"TailwindCSS", "CSS", "ScrollReveal", "SwiperJS"],
+        code: "",
+        demo: "https://space-eight-chi.vercel.app/",
+        role: "Front-end Developer"
+    },
+    {
+        id: 11,
+        name: "CACTUS",
+        description: "Created and destroyed the space website using following tools",
+        tools: ["HTML",'JS',"TailwindCSS", "CSS", "ScrollReveal", "SwiperJS"],
+        code: "",
+        demo: "https://mtayabaig.github.io/cactus/",
+        role: "Front-end Developer"
+    },
+
 ];
 
 
