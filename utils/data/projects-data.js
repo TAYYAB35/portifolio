@@ -98,6 +98,15 @@ export const projectsData = [
         demo: "https://mtayabaig.github.io/cactus/",
         role: "Front-end Developer"
     },
+    {
+        id: 12,
+        name: "TATADEV",
+        description: "Created and destroyed the Portifolio website of tata Software House",
+        tools: ["Angular",'JS',"Bootstrap", "CSS", "AOS", "OwlCarosule"],
+        code: "",
+        demo: "https://streamable.com/co4ijx",
+        role: "Front-end Developer"
+    },
 
 ];
 
