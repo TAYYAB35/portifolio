@@ -77,7 +77,7 @@ export const projectsData = [
         description: "Created the dashboard and administration panel for BALKE platform",
         tools: ["Angular", "TailwindCSS", "SCSS", "NgZoro", "OwlCarousel", "AOS"],
         code: "",
-        demo: "https://streamable.com/ceerdk",
+        demo: "https://admin.balke.pro/",
         role: "Front-end Developer"
     },
     {
