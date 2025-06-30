@@ -24,16 +24,16 @@ export const projectsData = [
         tools: ['Angular', 'Tailwindcss', 'SCSS', 'AOS', 'Recaptcha'],
         role: 'Frontend and UI Developer',
         code: '',
-        demo: 'https://balke.tech/',
+        demo: 'https://balke.pro/',
     },
     {
         id: 3,
         name: 'PROSHOP',
         description: 'I have designed and developed a full-stack web app for ECOMMERCE.I created the UI using React, Javascript,TailwindCSS.The app accept multiple payment and currencies. I developed the API using React,Nodejs,Express, and MongoDB.',
-        tools: ['React', 'Node', 'Express', 'MongoDB', 'Bootstrap', 'Redux'],
+        tools: ['React', 'Node', 'Express', 'MongoDB', 'Bootstrap', 'Redux','RTK Query','PayPal','JWT'],
         role: 'Full Stack Developer',
         code: '',
-        demo: '',
+        demo: 'https://proshop-ehc6.onrender.com/',
     },
     {
         id: 4,
@@ -92,8 +92,8 @@ export const projectsData = [
     {
         id: 10,
         name: "SPACE",
-        description: "Created and destroyed the space website using following tools",
-        tools: ["HTML", 'JS', "TailwindCSS", "CSS", "ScrollReveal", "SwiperJS"],
+        description: "Created and developed the space website using following tools",
+        tools: ["HTML",'JS',"TailwindCSS", "CSS", "ScrollReveal", "SwiperJS"],
         code: "",
         demo: "https://space-eight-chi.vercel.app/",
         role: "Front-end Developer"
@@ -101,8 +101,8 @@ export const projectsData = [
     {
         id: 11,
         name: "CACTUS",
-        description: "Created and destroyed the space website using following tools",
-        tools: ["HTML", 'JS', "TailwindCSS", "CSS", "ScrollReveal", "SwiperJS"],
+        description: "Created and developed the space website using following tools",
+        tools: ["HTML",'JS',"TailwindCSS", "CSS", "ScrollReveal", "SwiperJS"],
         code: "",
         demo: "https://mtayabaig.github.io/cactus/",
         role: "Front-end Developer"
@@ -110,8 +110,8 @@ export const projectsData = [
     {
         id: 12,
         name: "TATADEV",
-        description: "Created and destroyed the Portifolio website of tata Software House",
-        tools: ["Angular", 'JS', "Bootstrap", "CSS", "AOS", "OwlCarosule"],
+        description: "Created and developed the Portifolio website of tata Software House",
+        tools: ["Angular",'JS',"Bootstrap", "CSS", "AOS", "OwlCarosule"],
         code: "",
         demo: "https://streamable.com/co4ijx",
         role: "Front-end Developer"
